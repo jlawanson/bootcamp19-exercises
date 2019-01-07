@@ -3,5 +3,8 @@
 // HINT: recursion may help here
 
 const hasFalsyValue = obj => {
+  for (let key in obj){
+    if typeof obj[key] == 
+  }
   return false;
 };
